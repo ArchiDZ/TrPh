@@ -1,9 +1,5 @@
-from Glava2 import G2
+from Glava3 import G3
 
-#print("Привет мир Питон")
-#print(2 ** 10) #Возведение в степень (2в10 степени)
-
-#Glava1.zadanie1_17()
 
 #G2.zadanie2_9_variant_B()
-G2.zadanie2_14()
+G3.zadanie3_4()

@@ -89,6 +89,11 @@ def zadanie2_12():
     plotnost_naselenia = zhiteli/ploshad_gos
     print(f"Гипотетическое государство с площадью {ploshad_gos} км на которой проживают {zhiteli} человек")
     print(f"Плотность населения состовляет {plotnost_naselenia}")
+
+#===========
+#23-03-2023|
+#===========
+
 def zadanie2_13():
     a = random.randint(1,100)
     b = random.randint(1,100)
@@ -102,4 +107,20 @@ def zadanie2_14():
     result = math.sqrt(gipotenuza)
     print(f"Катет 1={katet1}  Катет 2={katet2}   Гипотенуза={round(result,2)}")
 def zadanie2_15():
-    print("")
+    vneshniy_r = random.randint(1,100)
+    max_vnR = vneshniy_r
+    vnutrenniy_r = random.randint(1,max_vnR-1)
+    pi = 3.14
+    S1 = 2*pi*(vneshniy_r**2)
+    S2 = 2 * pi * (vnutrenniy_r ** 2)
+    print(f"Площадь кольца по внешнему радиусу равна {vneshniy_r}")
+    print(f"Площадь кольца по внутриннему радиусу радиусу равна {vnutrenniy_r}")
+def zadanie2_16():
+    katet1 = random.randint(1,100)
+    katet2 = random.randint(1,100)
+    gipotenuza = math.sqrt((katet1**2)+(katet2**2))
+    p_treugolnika = katet1+katet2+round(gipotenuza,1)
+    print(f"Катет1={katet1}")
+    print(f"Катет2={katet2}")
+    print(f"Гипотенуза={gipotenuza}")
+    print(f"Периметр треугольника={p_treugolnika}")
