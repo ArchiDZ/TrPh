@@ -22,3 +22,28 @@ def zadanie3_4():
     y = apple%children
     print(f"Каждый школьник получит по {int(x)} яблок")
     print(f"В корзине останется лежать {y} яблок")
+def zadanie3_5():
+    storona1 = 543
+    x = int(storona1/130)
+    x_ost = int(storona1%130)
+    print(f"Из прямоугольника может получиться {x} квадрата со стороной 130 и останется прямоугольник {x_ost} на 130")
+def zadanie3_6():
+    i=0
+    mesto = 0
+    for i in range (1,10):
+      #  print(f"Купе №{i}")
+        for x in range(0,4):
+            mesto+=1
+            print(f"Купе №{i} Место №{mesto}")
+            #print(f"Место {mesto}")
+def zadanie3_7():
+    nomer_kvartiri = 0
+    for i in range (1,6):
+        print(f"Этаж-->{i}")
+        for x in range(0,3):
+            nomer_kvartiri+=1
+            print(f"КВ_{nomer_kvartiri}")
+
+def zadanie3_8():
+    kod_bileta = 1643
+    
