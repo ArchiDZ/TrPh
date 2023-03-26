@@ -124,3 +124,41 @@ def zadanie2_16():
     print(f"Катет2={katet2}")
     print(f"Гипотенуза={gipotenuza}")
     print(f"Периметр треугольника={p_treugolnika}")
+#26--3-2023
+def zadanie2_17():
+    osnovanie = random.randint(1,25)
+    visota = random.randint(1,30)
+    print(f"Равнобедренная трапеция. Основание--{osnovanie} высота--{visota}")
+# я хз какая тут формула нахождкния боковой стороны
+def zadanie2_18():
+    x = random.randint(1,15)
+    y = random.randint(1,10)
+    formula1 = x+(2+y)/(x**2)
+    formula2 = y+1/(math.sqrt((x**2)+10))
+    result = formula1/formula2
+    print(f"Число Х {x} Число У {y} Результат вычисления формулы {result}")
+def zadanie2_19():
+    print()
+def zadanie2_23():
+    storona1 = random.randint(1,50)
+    storona2 = random.randint(1,25)
+    p = (storona1+storona2)*2
+    print(f"Сторона1={storona1} Сторона2={storona2}")
+    print(f"Периметр прямоугольника равен {p}")
+def zadanie2_24():
+    number1 = random.randint(1,100)
+    number2 = random.randint(1,100)
+    summa = number1+number2
+    if number1>number2:
+        raznost = number1-number2
+    if number2>number1:
+        raznost = number2-number1
+    proizvedenie = number1*number2
+    chasnoe1 = number1/number2
+    chasnoe2 = number2/number1
+    print(f"Число1={number1} Число2={number2}")
+    print(f"Сумма чисел {summa}")
+    print(f"Роазность чисел {raznost}")
+    print(f"Произведение чисел {proizvedenie}")
+    print(f"Частное от деления 1 на 2 {chasnoe1}")
+    print(f"Частное от деления 2 на 1 {chasnoe2}")
