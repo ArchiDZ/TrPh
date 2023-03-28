@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37c1ac9d-8011-4eaf-835c-3a7c78074558" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/TrPh.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TrPh.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonProject/Glava2/G2.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/Glava2/G2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pythonProject/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="37c1ac9d-8011-4eaf-835c-3a7c78074558" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +36,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Артур Владиславович\Documents\GitHub\TrPh\pythonProject\Zlatopol_book" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="TrPh" />

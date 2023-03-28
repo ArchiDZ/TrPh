@@ -44,6 +44,16 @@ def zadanie3_7():
             nomer_kvartiri+=1
             print(f"КВ_{nomer_kvartiri}")
 
+#28-03-2023
 def zadanie3_8():
     kod_bileta = 1643
-    
+    real_ticket = 0
+    detail = 'AB'
+    i = 0
+    for i in range(0,300):
+        i+=1
+        real_ticket=kod_bileta+i
+        print(f'кресло №{i},билет №[{detail} {real_ticket}]')
+
+def zadanie3_9():
+    print()

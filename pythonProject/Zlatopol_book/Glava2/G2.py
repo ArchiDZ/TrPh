@@ -139,6 +139,17 @@ def zadanie2_18():
     print(f"Число Х {x} Число У {y} Результат вычисления формулы {result}")
 def zadanie2_19():
     print()
+    #Later
+def zadanie2_20():
+    print()
+    #Later
+def zadanie2_21():
+    print()
+    #Later
+def zadanie2_22():
+    print()
+    #Later
+#26-03-2022
 def zadanie2_23():
     storona1 = random.randint(1,50)
     storona2 = random.randint(1,25)
