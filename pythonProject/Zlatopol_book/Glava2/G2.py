@@ -137,9 +137,20 @@ def zadanie2_18():
     formula2 = y+1/(math.sqrt((x**2)+10))
     result = formula1/formula2
     print(f"Число Х {x} Число У {y} Результат вычисления формулы {result}")
+
+#29-03-2023
 def zadanie2_19():
-    print()
-    #Later
+    a = random.randint(1,10)
+    b = random.randint(1,10)
+    first_part = (2/((a**2)+25))+b
+    second_part = math.sqrt(b)+((a+b)/2)
+    result = first_part/second_part
+    y = (a+(2*math.sin(b)))/5.5*a
+    print(f'Значение а={a} Значение b={b}')
+    print(f'Числитель={first_part} знаменатель={second_part}')
+    print(f'Результат деления {result}')
+    print(f'Результат вычисления У={y}')
+
 def zadanie2_20():
     print()
     #Later
@@ -173,3 +184,68 @@ def zadanie2_24():
     print(f"Произведение чисел {proizvedenie}")
     print(f"Частное от деления 1 на 2 {chasnoe1}")
     print(f"Частное от деления 2 на 1 {chasnoe2}")
+
+def zadanie2_25():
+    """Даны длины сторон прямоугольного параллелипипида, Найтти его обьем и площадь боковой поверхности"""
+
+#29-03-2023
+def zadanie2_31():
+    apple_price = random.uniform(50.00,200.00)
+    apple_weight = random.randint(1,10);
+    coockie_price = random.uniform(39.00,450.00)
+    coockie_weight = random.randint(1,10)
+    print('Расценки')
+    print(f'Яблоки {round(apple_price,2)}р')
+    print(f'Печенье {round(coockie_price,2)}р')
+    print('Покупка')
+    print(f'Яблок {apple_weight}кг')
+    print(f'Печенье {coockie_weight}кг')
+    money_for_apple = apple_weight*apple_price
+    money_for_coockie = coockie_weight*coockie_price
+    total_money = money_for_coockie+money_for_apple
+    print(f'За яблоки {round(money_for_apple,2)}р')
+    print(f'За печенье {round(money_for_coockie,2)}р')
+    print(f'Общая сумма покупки {round(total_money,2)}')
+
+#29-03-2023
+def zadanie2_32():
+    monitor_price = random.uniform(100.00,2000.00)
+    keyboar_price = random.uniform(10.00,1000.00)
+    pc_price = random.uniform (1000.00,3500.00)
+    work_set = monitor_price+keyboar_price+pc_price
+    quantity = random.randint(1,10)
+    total_price = work_set*quantity
+    print('Расценки')
+    print(f'Монитор {round(monitor_price,2)}$')
+    print(f'Клавиатура {round(keyboar_price,2)}$')
+    print(f'Компьютер {round(pc_price,2)}$')
+    print(f'Цена за комплект {round(work_set,2)}')
+    print(f'Стоимость {quantity} комплектов {round(total_price,2)}$')
+
+#31-03-2023
+def zadanie2_33():
+    temperatur_cels = random.randint(-100,100)
+    temperatur_far = (temperatur_cels*1.8)+32
+    temperatur_kelvin = temperatur_cels+273.15
+    print(f'Температура по цельсию ... {temperatur_cels}')
+    print(f'Температура по фаренгейту ... {round(temperatur_far,2)}')
+    print(f'Температура по кельвину ... {round(temperatur_kelvin,2)}')
+
+#31-03-2023
+def zadanie2_34():
+    car_brend = ['BMW','AUDI','SAAB','VOLVO','MERCEDES','LIFFAN','RENO','LADA','FORD',
+           'SUBARU','TAYOTA','HYUNDAI','ISUZU','MAZDA']
+    rnd_num1 = random.randint(0,len(car_brend)-1)
+    rnd_num2 = random.randint(0, len(car_brend) - 1)
+    speed_car1 = random.randint(1,220)
+    speed_car2 = random.randint(1,220)
+    road = random.randint(1,1000)
+    sum_speed = speed_car1+speed_car2
+    result = road/sum_speed
+    print(f'Первая машина {car_brend[rnd_num1]}')
+    print(f'Едет со скоростью {speed_car1}км/ч')
+    print(f'Вторая машина {car_brend[rnd_num2]}')
+    print(f'Едет со скоростью {speed_car2}км/ч')
+    print(f'Расстояние между автомобилями {road}')
+    print(f'Автомобили встретятся через {round(result,2)} часов')
+

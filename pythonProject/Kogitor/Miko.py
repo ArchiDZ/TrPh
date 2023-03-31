@@ -1,18 +1,19 @@
+import random
 from datetime import datetime
-from array import *
+
 
 def greeting():
     message = 'Привет, Я мико твой виртуальный ' \
               'помошник. Чем я могу тебе помочь?'
     print(message)
-def which_month():
-    w_month =array(['январь','февраль','март','апрель','май','июнь','июль','август','сентябрь','октябрь','ноябрь','декабрь'])
-    print(w_month)
+def excercise_chooser():
+    book_list = ['Златопольский','Каннель-Фриман','Задачник']
+    book_chooser = random.randint(0,2)
+    chapter_chooser = random.randint(1,13)
+    exer_chooser = random.randint(1,100)
+    print(f'Попробуй решить из книги {book_list[book_chooser]} Глава {chapter_chooser} Задача {exer_chooser}')
 
 def Run_miko():
     greeting()
+    excercise_chooser()
     question = input('>>>')
-    if question == 'дата':
-        current_datetime = datetime.now()
-
-        print(current_datetime.day)
