@@ -2,6 +2,7 @@ from random_task import task_from_inet
 from Zlatopol_book.Glava3 import G3
 from Zlatopol_book.Glava2 import G2
 from Kogitor import Miko
-G2.zadanie2_34()
+from Zlatopol_book.Glava5 import G5
+G5.zadanie5_3()
 #G3.zadanie3_8()
 #Miko.Run_miko()

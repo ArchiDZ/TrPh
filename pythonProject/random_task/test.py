@@ -1,4 +1,10 @@
 from tkinter import*
+from tkinter import ttk
+
+
+def click_button():
+    print('\nHello')
+
 
 def finish():
     root.destroy() #ручное закрытие окна и всего приложения
@@ -13,7 +19,8 @@ root.resizable(False,False) #Окно нельзя изменить в разм�
 label = Label(text='Hello world!') #создаем текстовую метку
 label.pack() #размещаем метку в окне
 
-btn = Button(text='Start') #создаем кнопку
+btn = ttk.Button(text='Start') #создаем кнопку
+btn['command'] = click_button
 btn.pack() #размещаем кнопку в окне
 
 root.mainloop() 

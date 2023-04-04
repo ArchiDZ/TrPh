@@ -222,14 +222,6 @@ def zadanie2_32():
     print(f'Цена за комплект {round(work_set,2)}')
     print(f'Стоимость {quantity} комплектов {round(total_price,2)}$')
 
-#31-03-2023
-def zadanie2_33():
-    temperatur_cels = random.randint(-100,100)
-    temperatur_far = (temperatur_cels*1.8)+32
-    temperatur_kelvin = temperatur_cels+273.15
-    print(f'Температура по цельсию ... {temperatur_cels}')
-    print(f'Температура по фаренгейту ... {round(temperatur_far,2)}')
-    print(f'Температура по кельвину ... {round(temperatur_kelvin,2)}')
 
 #31-03-2023
 def zadanie2_34():
@@ -248,4 +240,59 @@ def zadanie2_34():
     print(f'Едет со скоростью {speed_car2}км/ч')
     print(f'Расстояние между автомобилями {road}')
     print(f'Автомобили встретятся через {round(result,2)} часов')
+
+#03-04-2023
+def zadanie2_35():
+    car_brend = ['BMW', 'AUDI', 'SAAB', 'VOLVO', 'MERCEDES', 'LIFFAN', 'RENO', 'LADA', 'FORD',
+                 'SUBARU', 'TAYOTA', 'HYUNDAI', 'ISUZU', 'MAZDA']
+    rnd_num1 = random.randint(0, len(car_brend) - 1)
+    rnd_num2 = random.randint(0, len(car_brend) - 1)
+    speed_car1 = random.randint(1, 220)
+    speed_car2 = random.randint(1, 220)
+    print(f'Первая машина {car_brend[rnd_num1]}')
+    print(f'Едет со скоростью {speed_car1}км/ч')
+    print(f'Вторая машина {car_brend[rnd_num2]}')
+    print(f'Едет со скоростью {speed_car2}км/ч')
+    if speed_car1>speed_car2 :
+        print("Машина 1 двигается быстрее")
+        s = random.randint(1,25)
+        result = s+(abs(speed_car1-speed_car2)*0.5)
+        print(result)
+    if speed_car2>speed_car1 :
+        print("Машина 2 двигается быстрее")
+        result = s + (abs(speed_car2 - speed_car1) * 0.5)
+        print(f'Растояние между автомобилями {result}')
+        
+#31-03-2023
+def zadanie2_36():
+    temperatur_cels = random.randint(-100,100)
+    temperatur_far = (temperatur_cels*1.8)+32
+    temperatur_kelvin = temperatur_cels+273.15
+    print(f'Температура по цельсию ... {temperatur_cels}')
+    print(f'Температура по фаренгейту ... {round(temperatur_far,2)}')
+    print(f'Температура по кельвину ... {round(temperatur_kelvin,2)}')
+
+# 04-04-2023
+def zadanie2_37():
+    t_far = 450;
+    t_cels = (t_far-32)/1.8
+    t_kelvin = t_cels+273.15
+    print(f'Исходна температура по Фаренгейту {t_far}')
+    print(f'Температура по Кельвину {round(t_kelvin,2)}')
+    print(f'Темпратура по Цельсию {round(t_cels,2)}')
+
+# 04-04-2023
+def zadanie2_38():
+    num1 = int(input('Первое число...'))
+    num2 = int(input('Второе число ...'))
+    plus = num1+num2
+    minus = num1 - num2
+    umn = num1*num2
+    devin = num1/num2
+    formula = plus/2
+    print(f'{num1}+{num2}={plus}')
+    print(f'{num1}-{num2}={minus}')
+    print(f'{num1}*{num2}={umn}')
+    print(f'{num1}/{num2}={devin}')
+    print(f'({num1}+{num2})/2={formula}')
 
