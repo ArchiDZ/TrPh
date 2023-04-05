@@ -16,3 +16,5 @@ def zadanie5_3():
     for i in range (1,17):
         x+=1
         print(x)
+    squares = [num**2 for num in range (1,11)]
+    print(squares)

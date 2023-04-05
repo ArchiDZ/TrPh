@@ -1,9 +1,11 @@
 from tkinter import*
 from tkinter import ttk
 
-
+clicks = 0
 def click_button():
-    print('\nHello')
+    global clicks #переменная которая создана вне метода, для использования в методе используется параметр глобал
+    clicks+=1
+    print(f'\nHello Clicked {clicks}')
 
 
 def finish():

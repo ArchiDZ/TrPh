@@ -65,3 +65,4 @@ def outer(func):
         time_result = ennd_time-start_time
         print(time_result)
     return inner()
+
