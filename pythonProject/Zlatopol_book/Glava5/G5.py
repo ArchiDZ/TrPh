@@ -1,20 +1,17 @@
-#04-04-2023
-
-def zadanie5_1():
-    for i in range(1,21):
+def zadanie5_1():  # 04-04-2023
+    for i in range(1, 21):
         print(f'{i}){20} ')
 
-#04-04-2023
 
-def zadanie5_2():
-    for i in range (1,11):
+def zadanie5_2():  # 04-04-2023
+    for i in range(1, 11):
         print(f'Learning Python {i}')
 
-#04-04-2023
-def zadanie5_3():
+
+def zadanie5_3():  # 04-04-2023
     x = 19
-    for i in range (1,17):
-        x+=1
+    for i in range(1, 17):
+        x += 1
         print(x)
-    squares = [num**2 for num in range (1,11)]
+    squares = [num**2 for num in range(1, 11)]
     print(squares)
