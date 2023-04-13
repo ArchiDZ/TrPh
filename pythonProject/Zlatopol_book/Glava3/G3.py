@@ -98,3 +98,165 @@ def zadanie3_18():  # 04-04-2023
     num2 = number % 10
     result = (int(num2)*10)+int(num1)
     print(f'{result}')
+
+
+def zadanie3_19():  # 11-04-2023
+    print('Введите трех значное число')
+    number = int(input('>>>'))
+    num1 = int(number/100)
+    num2 = int((number/10) % 10)
+    num3 = int(number % 10)
+    print(f'{num1},{num2},{num3}')
+
+
+def zadanie3_20():  # 11-04-2023
+    print('Введите трех значное число')
+    number = int(input('>>>'))
+    num1 = int(number / 100)
+    num2 = int((number / 10) % 10)
+    num3 = int(number % 10)
+    multiply = (num1*num2)*num3
+    summ = num1+num2+num3
+    print(f'Число едениц-->{num3}')
+    print(f'Число десятков-->{num2}')
+    print(f'Число сотен-->{num1}')
+    print(f'Сумма цифр числа-->{summ}')
+    print(f'Произведение цифр числа-->{multiply}')
+
+
+def zadanie3_21():  # 11-04-2023
+    print('Введите трех значное число')
+    number = int(input('>>>'))
+    num1 = int(number / 100)
+    num2 = int((number / 10) % 10)
+    num3 = int(number % 10)
+    new_number = (num3*100)+(num2*10)+num1
+    print(f'Зеркальное число-->{new_number}')
+
+
+def zadanie3_22():  # 12-04-2023
+    print('Введите трех значное число')
+    number = int(input('>>>'))
+    num1 = int(number / 100)
+    num2 = int((number / 10) % 10)
+    num3 = int(number % 10)
+    new_number = (num2 * 100) + (num3 * 10) + num1
+    print(f'Преобразованое число --> {new_number}')
+
+
+def zadanie3_23():  # 12-04-2023
+    number = random.randint(100, 1000)
+    print(f'Трех значное число {number}')
+    num1 = int(number / 100)
+    num2 = int((number / 10) % 10)
+    num3 = int(number % 10)
+    new_number = (num3*100)+(num2*10)+num1
+    print(f'Преобразованое число --> {new_number}')
+
+
+def zadanie3_24():  # 12-04-2023
+    number = random.randint(100, 1000)
+    print(f'Трех значное число {number}')
+    num1 = int(number / 100)
+    num2 = int((number / 10) % 10)
+    num3 = int(number % 10)
+    new_number = (num2*100)+(num1*10)+num3
+    print(f'Преобразованое число --> {new_number}')
+
+
+def zadanie3_25():  # 12-04-2023
+    number = random.randint(100, 1000)
+    print(f'Трех значное число {number}')
+    num1 = int(number / 100)
+    num2 = int((number / 10) % 10)
+    num3 = int(number % 10)
+    new_number = (num1*100)+(num3*10)+num2
+    print(f'Преобразованое число --> {new_number}')
+
+
+def zadanie3_26():  # 12-04-2023
+    number = random.randint(100, 1000)
+    print(f'Трех значное число {number}')
+    num1 = int(number / 100)
+    num2 = int((number / 10) % 10)
+    num3 = int(number % 10)
+    if num1 != num2 and num2 != num3 and num3 != num1:
+        new_number1 = (num1 * 100) + (num3 * 10) + num2
+        new_number2 = (num2 * 100) + (num1 * 10) + num3
+        new_number3 = (num3 * 100) + (num2 * 10) + num1
+        new_number4 = (num2 * 100) + (num3 * 10) + num1
+        new_number5 = (num3 * 100) + (num2 * 10) + num1
+        print(f'{new_number1},{new_number2},{new_number3},{new_number4},'
+              f'{new_number5}')
+    else:
+        print('В числе есть совпадения, не возможно перестроить число')
+
+
+def zadanie3_27():  # 12-04-2023
+    number = random.randint(1000, 99999)
+    print(f'Случайное число {number}')
+    if number < 9999:
+        print('Четырехзначное число')
+        num1 = int(number / 1000)
+        num2 = int(number / 100) % 10
+        num3 = int(number / 10) % 10
+        num4 = int(number % 10)
+        summ = num1+num2+num3+num4
+        print(f'{num1} {num2} {num3} {num4}')
+        print(f'Суммы цифр данного числа -->{summ}')
+    else:
+        print('Пятизначное число')
+        num1 = int(number / 10000)
+        num2 = int(number / 1000) % 10
+        num3 = int(number / 100) % 10
+        num4 = int(number / 10) % 10
+        num5 = int(number % 10)
+        summ = num1+num2+num3+num4+num5
+        print(f'{num1} {num2} {num3} {num4} {num5}')
+        print(f'Суммы цифр данного числа -->{summ}')
+
+
+def zadanie3_28():  # 13-04-2023
+    number = random.randint(1000, 9999)
+    print(f'Дано число: {number}')
+    num1 = int(number / 1000)
+    num2 = int(number / 100) % 10
+    num3 = int(number / 10) % 10
+    num4 = int(number % 10)
+    print('Преобразования числа')
+    new_number1 = (num4 * 1000) + (num3 * 100) + (num2 * 10) + num4
+    print(f'a) {new_number1}')
+    new_number2 = (num2 * 1000) + (num1 * 100) + (num4 * 10) + num3
+    print(f'b) {new_number2}')
+    new_number3 = (num1 * 1000) + (num3 * 100) + (num2 * 10) + num4
+    print(f'c) {new_number3}')
+    new_number4 = (num4 * 1000) + (num3 * 100) + (num1 * 10) + num2
+    print(f'd) {new_number4}')
+
+
+def zadanie3_29():  # 13-04-2023
+    number = random.randint(9, 99)
+    num1 = int(number / 10)
+    num2 = int(number % 10)
+    print(f'Случайное число {number}')
+    print(f'Число десятков в числе {num1}')
+    print(f'Число едениц в числе {num2}')
+
+
+def zadanie3_30():
+    number = random.randint(99, 999)
+    num1 = int(number / 100)
+    num2 = int((number / 10) % 10)
+    print(f'Случайное число {number}')
+    print(f'Число сотен в числе {num1}')
+    print(f'Число десятков в числе {num2}')
+
+
+def zadanie3_31():
+    number = random.randint(999, 9999)
+    num1 = int(number / 1000)
+    num2 = int((number / 100) % 10)
+    print(f'Случайное число {number}')
+    print(f'Число тысяч в числе {num1}')
+    print(f'Число сотен в числе {num2}')
+

@@ -71,3 +71,8 @@ def outer(func):  # 30-03-2023 кусок кода из Вконтакте
         time_result = ennd_time-start_time
         print(time_result)
     return inner()
+
+
+def revers_number():  # 10-04-2023 Задача с портала https://younglinux.info
+     number = input('>>>')
+     
