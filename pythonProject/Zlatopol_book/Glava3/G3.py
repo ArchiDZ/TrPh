@@ -260,3 +260,12 @@ def zadanie3_31():
     print(f'Число тысяч в числе {num1}')
     print(f'Число сотен в числе {num2}')
 
+
+def zadanie3_51():  # 14-04-2023
+    a = random.randint(1, 10)
+    b = random.randint(1, 10)
+    print(f'a={a} b={b}')
+    ab = bool(a/b)
+    ba = bool(b/a)
+    print(int(ab))
+    print(int(ba))
