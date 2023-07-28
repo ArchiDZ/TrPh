@@ -287,3 +287,30 @@ def upr_5_7():  # 25-04-2023
 
     if 'banana' in favorite_fruit:
         print('Match')
+
+
+def upr_5_8():  # 24-05-2023
+    login_list = ['admin', 'noob', 'el']
+    print('Введите Логин: ')
+    for log in login_list:
+        if log == 'admin':
+            print('Hello admin, would you like to see server status')
+        else:
+            print(f'Hello {log}, nice to see you')
+
+
+def upr_5_9():  # 10-07-2023
+    login_list = ['admin', 'noob', 'el']
+    if login_list:
+        print('We have couple users')
+    else:
+        print('We need to find more users')
+    for log in login_list:
+        if log == 'admin':
+            print('Hello admin, would you like to see server status')
+        else:
+            print(f'Hello {log}, nice to see you')
+
+def upr_5_10():  # 10-07-2023
+    current_users = ['bob','admin', 'noob', 'el','igamer']
+    new_user

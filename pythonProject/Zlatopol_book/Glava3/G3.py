@@ -261,6 +261,14 @@ def zadanie3_31():
     print(f'Число сотен в числе {num2}')
 
 
+def zadanie3_32():  # 27-07-2023
+   number = 237
+   num1 = int(number / 100)
+   num2 = number - (num1*100)
+   num3 = (num2*10)+num1
+   print(num3)
+
+
 def zadanie3_51():  # 14-04-2023
     a = random.randint(1, 10)
     b = random.randint(1, 10)

@@ -1,12 +1,9 @@
-# from random_task import task_from_inet
-# from Zlatopol_book.Glava4 import G4
-# from Zlatopol_book.Glava2 import G2
-# from Kogitor import Miko
-#from Zlatopol_book.Glava5 import G5
+from Zlatopol_book.Glava3 import G3
 from E_Metiz_learning_python import EML
+from KannelFriman import Glava2
 
-
-EML.upr_5_7()
+#Glava2.z_2_10()
+# EML.upr_5_9()
 # G5.zadanie5_15()
-# G4.zadanie4_1()
+G3.zadanie3_32()
 # Miko.Run_miko()
