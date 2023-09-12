@@ -13,6 +13,13 @@ def zadanie4_1():  # 14-04-2023
         print(f'Число 1 меньше --- {num1}')
 
 
+def zadanie4_11():
+    speed1 = random.uniform(0.1, 100.0)
+    speed2 = random.uniform(0.1, 100.0)
+    print()
+
+
+
 def zadanie4_60():  # 02-05-2023
     man1 = random.uniform(1.00, 2.00)
     man2 = random.uniform(1.00, 2.00)

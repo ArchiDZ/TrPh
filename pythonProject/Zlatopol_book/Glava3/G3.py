@@ -269,6 +269,20 @@ def zadanie3_32():  # 27-07-2023
    print(num3)
 
 
+def zadanie3_33():  # 08-08-2023
+    number = random.randint(99, 1000)
+    print(f'Число -- {number}')
+    num3 = number % 10
+    newNum = int((number-num3)/10)
+    print(newNum)
+    print(num3*100+newNum)
+
+
+def zadanie3_34():  # 08-08-2023
+    number = 564
+    
+
+
 def zadanie3_51():  # 14-04-2023
     a = random.randint(1, 10)
     b = random.randint(1, 10)
